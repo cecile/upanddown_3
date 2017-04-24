@@ -1,0 +1,109 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;  
+    --bleu: #0200FF;
+    --blanc: #FFFFFF; 
+    --orange: #F36B21;
+}
+
+
+.accueil,
+.jeux,
+.resultat{
+background-repeat: no-repeat;
+background-size:cover;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+
+}
+
+.accueil {
+background-image: url("../images/background/bg_accueil.png");
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+    
+}
+
+.bg-1 {
+background-image: url("../images/background/bg_jeuactif1.png");
+}
+
+.bg-2 {
+background-image: url("../images/background/bg_jeuactif2.png");
+}
+
+.bg-3 {
+background-image: url("../images/background/bg_jeuactif3.png");
+}
+
+.bg-4 {
+background-image: url("../images/background/bg_jeuactif4.png");
+}
+
+.bg-5 {
+background-image: url("../images/background/bg_jeuactif5.png");
+}
+
+.bg-6 {
+background-image: url("../images/background/bg_jeuactif6.png");
+}
+
+.bg-7 {
+background-image: url("../images/background/bg_jeuactif7.png");
+}
+
+.bg-8 {
+background-image: url("../images/background/bg_jeuactif8.png");
+}
+
+
+
+h2, h3 {
+margin:0;
+border: solid 5px;
+display:inline;
+text-transform: uppercase;
+
+}
+
+h2 {
+    font-size: 120px; 
+    color: var(--blanc);
+    border-color: var(--blanc);
+    background-color: var(--bleu);
+    padding: 10px 30px;
+}
+
+h3 {
+    font-size
+}
+
+/*les boutons*/
+
+.btn {
+    text-transform: uppercase;
+    border: solid 5px;
+    display: inline-block;
+    font-size: 45px;
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--blanc);
+    padding: 10px;
+    margin-top: 30px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bleu {
+color: var(--bleu);
+border-color: var(--bleu);
+background-color: var(--blanc);
+font-weight: 700;
+}
