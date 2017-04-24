@@ -36,14 +36,46 @@
     </head>
     
     <body>
-       <!-- DEBUT SECTION TYPE -->       
-       <section class="">
+           
+        <section class="accueil">
            <header>
-               <h2>Trouves un nombre entre 1 et 100</h2>
+               <h2>Up and Down</h2>
            </header>
            
+           <button class="btn bleu">Jouez</button>
+        </section>
+       
+        <section class="jeux bg-1 bg-2 bg-3 bg-4 bg-5 bg-6 bg-7">
+           <div class="interface">
+               <p>Entrez un chiffre entre 1 &amp; 100</p>
+            
+               <div class="reponse">
+                   <input type="number" name="nombre" required>
+                   <button class="btn-ok">Ok</button>
+               </div>   
+               
+               <div class="vie">
+                   <img class="img-vie iv1" src="images/vague.png" alt="Vie 1 symbolisée par une vague" width="" height="">
+                   <img class="img-vie iv2" src="images/vague.png" alt="Vie 2 symbolisée par une vague" width="" height=""> 
+                   <img class="img-vie iv3" src="images/vague.png" alt="Vie 3 symbolisée par une vague" width="" height=""> 
+                   <img class="img-vie iv4" src="images/vague.png" alt="Vie 4 symbolisée par une vague" width="" height=""> 
+                   <img class="img-vie iv5" src="images/vague.png" alt="Vie 5 symbolisée par une vague" width="" height=""> 
+                   <img class="img-vie iv6" src="images/vague.png" alt="Vie 6 symbolisée par une vague" width="" height=""> 
+                   <img class="img-vie iv7" src="images/vague.png" alt="Vie 7 symbolisée par une vague" width="" height="">
+                   <img class="img-vie iv7" src="images/vague.png" alt="Vie 8 symbolisée par une vague" width="" height="">      
+               </div>
+           </div>
        </section>
-       <!-- FIN SECTION TYPE -->
+       
+       <section class="resultat gagner perdu">
+           <header>
+               <h3 class="tfin tgagner">Bravo</h3>
+               <h3 class="tfin tperdu">Perdu</h3>
+           </header>
+           
+           <button class="btn bleu orange">Rejouez</button>
+       </section>
+       
        
        <footer>
        </footer>
