@@ -309,8 +309,79 @@ input {
 
 /* ------------ Partie Antho et Cecile ----------------- */
 
+@media only screen and (max-width : 543px) {
+    .jeux {
+        height: 65%;
+        width: auto;
+        background-position: right;
+    }
+    
+    .interface {
+        height: 35%;
+        width: auto;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .jeux p {
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    
+    input {
+        margin: 8px;
+        width: unset;
+        height: unset;
+    }
+    
+    .btn-ok {
+        margin: 8px;
+    }
+    
+    .reponse {
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 64px;
+    }
+    
+    .vie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .img-vie{
+        width: 23%;
+        margin-bottom: 5px;
+    }
+}
 
 
+@media screen and (min-width: 544px) and (max-width: 767px) {
+    
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px{
+    
+    
+    
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+    
+    
+}
 
 
 
