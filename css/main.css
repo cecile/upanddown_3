@@ -329,11 +329,191 @@ input {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------ Partie Elodie et Morgane ----------------- */
 
 
 @media only screen and (max-width : 543px) {
+
     
+h2 {
+        font-size: 25px;
+        border: solid 2px;
+    }
+    
+h3{
+    font-size:50px;
+    }
+    
+.bleu {
+
+    border: 2px;
+    font-size: 16px;
+    width: 25%;
+    }
+    
+    
+.accueil,
+.gagner{
+        background-position: right;
+    }
+    
+.perdu{
+        background-image: url(...........);
+        background-position: center;
+    }
+
+
+    
+.bleu-2,
+.orange-2 {
+    width: 20%;
 }
 
 
