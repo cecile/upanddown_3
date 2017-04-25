@@ -12,8 +12,6 @@ body {
 
 h2, h3 {
 margin:0;
-border: solid 5px;
-display:inline;
 text-transform: uppercase;
 
 }
@@ -24,11 +22,15 @@ h2 {
     border-color: var(--blanc);
     background-color: var(--bleu);
     padding: 10px 30px;
+    border: solid 5px;
+    display:inline;
 }
 
 h3 {
     font-size: 120px;
     padding: 10px 30px;
+    text-shadow: 6px 6px var(--bleu);
+
 }
 
 p {
@@ -37,8 +39,6 @@ p {
     color: var(--bleu);
     text-transform: uppercase;
 }
-
-
 .accueil,
 .jeux,
 .resultat{
@@ -111,7 +111,7 @@ flex-direction: column;
     background-color: var(--blanc);
     padding: 10px;
     margin-top: 30px;
-    width: 10%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -122,7 +122,7 @@ flex-direction: column;
     color: var(--bleu);
     border-color: var(--bleu);
     background-color: var(--blanc);
-    width: 10%;
+    width: auto;
 
 }
 
@@ -136,7 +136,7 @@ flex-direction: column;
     color: var(--orange);
     border-color: var(--orange);
     background-color: var(--blanc); 
-    width: 15%;
+    width: auto;
 }
 
 .orange:hover {
@@ -241,19 +241,15 @@ input {
     background-image: url("../images/background/bg-bravo.png");    
 }
 
-.bleu-2 {
-    color: var(--bleu);
-    border-color: var(--bleu);
-    background-color: var(--blanc);
-    width: 10%;
+.tperdu {
+    color: var(--blanc);
+    width: auto;
 }
 
 
-.orange-2 {
-    color: var(--orange);
-    border-color: var(--orange);
-    background-color: var(--blanc); 
-    width: 15%;
+.tgagner {
+    color: var(--blanc);
+    width: auto;
 }
 
 .perdu {
@@ -309,7 +305,7 @@ input {
 
 /* ------------ Partie Antho et Cecile ----------------- */
 
-@media only screen and (max-width : 543px) {
+/*@media only screen and (max-width : 543px) {
     .jeux {
         height: 65%;
         width: auto;
@@ -381,13 +377,7 @@ input {
     
     
     
-}
-
-
-
-
-
-
+}*/
 
 
 
@@ -522,89 +512,130 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------ Partie Elodie et Morgane ----------------- */
 
 
 @media only screen and (max-width : 543px) {
-
     
 h2 {
-        font-size: 25px;
-        border: solid 2px;
-    }
-    
-h3{
-    font-size:50px;
-    }
-    
-.bleu {
-
-    border: 2px;
-    font-size: 16px;
-    width: 25%;
-    }
-    
-    
-.accueil,
-.gagner{
-        background-position: right;
-    }
-    
-.perdu{
-        background-image: url(...........);
-        background-position: center;
-    }
-
-
-    
-.bleu-2,
-.orange-2 {
-    width: 20%;
+  font-size: 25px;
+  border: solid 2px;
 }
+
+h3 {
+    font-size: 60px;
+}
+
+    
+.bleu,
+.orange {
+    border: solid 2px;
+    font-size: 14px;
+}
+
+
+.accueil, .gagner {
+    background-position: right;
+}
+
+.perdu {
+    background-position: center;
+}
+
+    
+}
+
+
 
 
 @media screen and (min-width: 544px) and (max-width: 767px) {
+
+h2 {
+  font-size: 40px;
+  border: solid 2px;
+}
+
+h3 {
+    font-size: 80px;
+}
+
+    
+.bleu, 
+.orange {
+    border: solid 2px ;
+    font-size: 20px;
+}
+
+
+.accueil, .gagner {
+    background-position: right;
+}
+
+.perdu {
+    background-position: center;
+}
+
+    
     
 }
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px{
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
     
-    
+ h2 {
+  font-size: 75px;
+  border: solid 3px;
+}
+
+
+.bleu, 
+.orange {
+    border: solid 3px;
+    font-size: 35px;
+}
+
+
+.accueil, .gagner {
+    background-position: right;
+}
+
+.perdu {
+    background-position: center;
+}
+
+     
     
 }
 
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-    
+@media screen and (min-width: 993px) and (max-width: 1200px) { 
+ h2 {
+  font-size: 75px;
+  border: solid 4px;
+}
+  
+.bleu, 
+.orange {
+    border: solid 4px;
+    font-size: 35px;
+}
+
+.accueil, .gagner {
+    background-position: right;
+}
+
+.perdu {
+    background-position: center;
+}
+
     
     
 }
+    
+    
+
 
 /* -------------------------------------------------------- */
