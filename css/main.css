@@ -361,26 +361,212 @@ input {
         width: 23%;
         margin-bottom: 5px;
     }
+    
+    .plus > p, .moins > p {
+        font-size: 272px;
+    }
 }
 
 
-@media screen and (min-width: 544px) and (max-width: 767px) {
+@media screen and (min-width: 544px) and (max-width: 767px) and (orientation: landscape) {
+    .jeux {
+        height: 75%;
+        width: auto;
+        background-position: right top;
+    }
+    
+    .interface {
+        height: 25%;
+        width: auto;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .jeux p {
+        text-align: center;
+        font-size: 18px;
+        width: 55%;
+        line-height: 46px;
+    }
+    
+    
+    input {
+        margin: 8px;
+        width: unset;
+        height: unset;
+    }
+    
+    .btn-ok {
+        margin: 8px;
+    }
+    
+    .reponse {
+        margin: 0 auto;
+        width: 45%;
+        justify-content: center;
+        height: 43px;
+    }
+    
+    .vie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        line-height: 43px;
+        margin: auto;
+    }
+    
+    .img-vie{
+        width: 10%;
+        margin: 0;
+        padding: 0;
+        line-height: 43px;
+        height: auto;
+    }
+    
+    .plus > p, .moins > p {
+        font-size: 272px;
+    }
+}
+
+/* -------------- */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .jeux {
+        height: 85%;
+        width: auto;
+        background-position: right;
+    }
+    
+    .interface {
+        height: 15%;
+        width: auto;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .jeux p {
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    
+    input {
+        margin: 8px;
+        width: unset;
+        height: unset;
+    }
+    
+    .btn-ok {
+        margin: 8px;
+    }
+    
+    .reponse {
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 64px;
+    }
+    
+    .vie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .img-vie{
+        width: 11%;
+        height: auto;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    
+    .plus > p, .moins > p {
+        font-size: 600px;
+    }
+    
     
 }
 
 
-
-@media screen and (min-width: 768px) and (max-width: 992px{
+@media screen and (min-width: 993px) and (max-width: 1200px) and (orientation: landscape) {
+    .jeux {
+        height: 85%;
+        width: auto;
+        background-position: right top;
+    }
+    
+    .interface {
+        height: 15%;
+        width: auto;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    
+    .jeux p {
+        text-align: right;
+        font-size: 24px;
+        width: 45%;
+        line-height: 46px;
+    }
     
     
+    input {
+        margin: 8px;
+        width: unset;
+        height: unset;
+    }
     
-}
-
-
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .btn-ok {
+        margin: 8px;
+    }
     
+    .reponse {
+        margin: 0px 0px 0px 20px;
+        width: 30%;
+        justify-content: flex-start;
+        height: 43px;
+    }
     
+    .vie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        line-height: 43px;
+        margin: auto;
+    }
     
+    .img-vie{
+        width: 10%;
+        margin: 0;
+        padding: 0;
+        line-height: 43px;
+        height: auto;
+    }
+    
+    .plus > p, .moins > p {
+        font-size: 700px;
+    }    
 }
 
 
