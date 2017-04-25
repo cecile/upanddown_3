@@ -185,8 +185,7 @@ input {
     margin-right: 15px;  
     color: var(--bleu);
     font-family: 'Nunito';
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
 
 
@@ -241,8 +240,6 @@ input {
 .gagner {
     background-image: url("../images/background/bg-bravo.png");    
 }
-
-
 
 .bleu-2 {
     color: var(--bleu);
