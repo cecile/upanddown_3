@@ -305,7 +305,7 @@ input {
 
 /* ------------ Partie Antho et Cecile ----------------- */
 
-/*@media only screen and (max-width : 543px) {
+@media only screen and (max-width : 543px) {
     .jeux {
         height: 65%;
         width: auto;
@@ -560,131 +560,11 @@ input {
         height: auto;
     }
     
-<<<<<<< HEAD
-}*/
 
-
-
-
-
-/* -------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
     .plus > p, .moins > p {
         font-size: 700px;
     }    
 }
->>>>>>> 8a19d60a91af3ca8b08e2cadaaf4f83742e5c02e
 
 
 
