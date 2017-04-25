@@ -361,6 +361,34 @@ input {
     .plus > p, .moins > p {
         font-size: 272px;
     }
+    
+    h2 {
+      font-size: 25px;
+      border: solid 2px;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+
+    .bleu,
+    .orange {
+        border: solid 2px;
+        font-size: 14px;
+    }
+
+
+    .accueil, .gagner {
+        background-position: right;
+    }
+
+    .perdu {
+        background-position: center;
+    }
+
+
+    }
 }
 
 
@@ -430,6 +458,31 @@ input {
     .plus > p, .moins > p {
         font-size: 272px;
     }
+    
+    h2 {
+      font-size: 40px;
+      border: solid 2px;
+    }
+
+    h3 {
+        font-size: 80px;
+    }
+
+
+    .bleu, 
+    .orange {
+        border: solid 2px ;
+        font-size: 20px;
+    }
+
+
+    .accueil, .gagner {
+        background-position: right;
+    }
+
+    .perdu {
+        background-position: center;
+    }
 }
 
 /* -------------- */
@@ -493,6 +546,26 @@ input {
         font-size: 600px;
     }
     
+    h2 {
+      font-size: 75px;
+      border: solid 3px;
+    }
+
+
+    .bleu, 
+    .orange {
+        border: solid 3px;
+        font-size: 35px;
+    }
+
+
+    .accueil, .gagner {
+        background-position: right;
+    }
+
+    .perdu {
+        background-position: center;
+    }
     
 }
 
@@ -560,152 +633,27 @@ input {
         height: auto;
     }
     
-
     .plus > p, .moins > p {
         font-size: 700px;
-    }    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------ Partie Elodie et Morgane ----------------- */
-
-
-@media only screen and (max-width : 543px) {
+    } 
     
-h2 {
-  font-size: 25px;
-  border: solid 2px;
+    h2 {
+      font-size: 75px;
+      border: solid 4px;
+    }
+
+    .bleu, 
+    .orange {
+        border: solid 4px;
+        font-size: 35px;
+    }
+
+    .accueil, .gagner {
+        background-position: right;
+    }
+
+    .perdu {
+        background-position: center;
+    }
+
 }
-
-h3 {
-    font-size: 60px;
-}
-
-    
-.bleu,
-.orange {
-    border: solid 2px;
-    font-size: 14px;
-}
-
-
-.accueil, .gagner {
-    background-position: right;
-}
-
-.perdu {
-    background-position: center;
-}
-
-    
-}
-
-
-
-
-@media screen and (min-width: 544px) and (max-width: 767px) {
-
-h2 {
-  font-size: 40px;
-  border: solid 2px;
-}
-
-h3 {
-    font-size: 80px;
-}
-
-    
-.bleu, 
-.orange {
-    border: solid 2px ;
-    font-size: 20px;
-}
-
-
-.accueil, .gagner {
-    background-position: right;
-}
-
-.perdu {
-    background-position: center;
-}
-
-    
-    
-}
-
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    
- h2 {
-  font-size: 75px;
-  border: solid 3px;
-}
-
-
-.bleu, 
-.orange {
-    border: solid 3px;
-    font-size: 35px;
-}
-
-
-.accueil, .gagner {
-    background-position: right;
-}
-
-.perdu {
-    background-position: center;
-}
-
-     
-    
-}
-
-
-@media screen and (min-width: 993px) and (max-width: 1200px) { 
- h2 {
-  font-size: 75px;
-  border: solid 4px;
-}
-  
-.bleu, 
-.orange {
-    border: solid 4px;
-    font-size: 35px;
-}
-
-.accueil, .gagner {
-    background-position: right;
-}
-
-.perdu {
-    background-position: center;
-}
-
-    
-    
-}
-    
-    
-
-
-/* -------------------------------------------------------- */
