@@ -219,11 +219,13 @@ input {
 /* vie */
 
 .vie {
-    padding-top: 8px;
-}
+    padding-top: 8px;   
+} 
 
 .iv1, .iv2, .iv3, .iv4 {
     padding-bottom: 8px;
+  
+    
 }
 
 
@@ -258,6 +260,10 @@ input {
 
 .cacher {
     display: none;
+}
+
+.transparent {
+    opacity: 0;
 }
 
 /*animation du plus et du moins*/
