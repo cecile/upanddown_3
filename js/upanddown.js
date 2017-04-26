@@ -22,6 +22,13 @@ var moins = document.querySelector(".moins");
 
 var blcNb = document.querySelector("input");
 
+var nombre = Math.ceil(Math.random()*100);
+var nombrecoup = 8;
+var coupjouer = 0;
+
+var tgagner = document.querySelector("h3.tgagner");
+var tperdu = document.querySelector("h3.tperdu");
+
 //evenements
 btnJouez.addEventListener('click', accueilToJeux);
 btnOk.addEventListener('click', verifNombre);
@@ -35,12 +42,241 @@ function accueilToJeux() {
 }
 
 function verifNombre() {
+    if(coupjouer <= 1) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-1');
+                sectionJeux.classList.add('bg-2');
+                vague8.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-1');
+                sectionJeux.classList.add('bg-2');
+                vague8.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 2) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-2');
+                sectionJeux.classList.add('bg-3');
+                vague7.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-2');
+                sectionJeux.classList.add('bg-3');
+                vague7.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 3) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-3');
+                sectionJeux.classList.add('bg-4');
+                vague6.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-3');
+                sectionJeux.classList.add('bg-4');
+                vague6.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 4) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-4');
+                sectionJeux.classList.add('bg-5');
+                vague5.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-4');
+                sectionJeux.classList.add('bg-5');
+                vague5.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 5) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-5');
+                sectionJeux.classList.add('bg-6');
+                vague4.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-5');
+                sectionJeux.classList.add('bg-6');
+                vague4.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 6) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-6');
+                sectionJeux.classList.add('bg-7');
+                vague3.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-6');
+                sectionJeux.classList.add('bg-7');
+                vague3.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 7) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else if(blcNb.value < nombre) {
+                sectionJeux.classList.remove('bg-7');
+                sectionJeux.classList.add('bg-8');
+                vague2.classList.add('cacher');
+                plus.classList.remove('cacher');   
+            
+            }else{
+                sectionJeux.classList.remove('bg-7');
+                sectionJeux.classList.add('bg-8');
+                vague2.classList.add('cacher');
+                moins.classList.remove('cacher');     
+        }
+        
+        coupjouer = coupjouer+1;
+    }
+    
+    if(coupjouer <= 8) {
+        
+        plus.classList.add('cacher');
+        moins.classList.add('cacher');
+        if(blcNb.value == nombre){
+            sectionJeux.classList.add('cacher');
+            sectionResultat.classList.remove('cacher');
+            sectionResultat.classList.remove('perdu');
+            sectionResultat.classList.add('gagner');
+            tperdu.classList.add('cacher');
+            tgagner.classList.remove('cacher');
+
+            }else{
+                sectionResultat.classList.add('cacher');
+                sectionJeux.classList.remove('cacher');
+                sectionJeux.classList.add('bg-1');
+                sectionJeux.classList.remove('bg-2');
+                sectionJeux.classList.remove('bg-3');
+                sectionJeux.classList.remove('bg-4');
+                sectionJeux.classList.remove('bg-5');
+                sectionJeux.classList.remove('bg-6');
+                sectionJeux.classList.remove('bg-7');
+                sectionJeux.classList.remove('bg-8');
+
+                vague1.classList.remove('cacher');
+                vague2.classList.remove('cacher');
+                vague3.classList.remove('cacher');
+                vague4.classList.remove('cacher');
+                vague5.classList.remove('cacher');
+                vague6.classList.remove('cacher');
+                vague7.classList.remove('cacher');
+                vague8.classList.remove('cacher');    
+        }
+    }
 }
 
 function resultatToJeux() {
     sectionResultat.classList.add('cacher');
     sectionJeux.classList.remove('cacher');
-    // nombre aléatoire
     sectionJeux.classList.add('bg-1');
     sectionJeux.classList.remove('bg-2');
     sectionJeux.classList.remove('bg-3');
@@ -49,5 +285,14 @@ function resultatToJeux() {
     sectionJeux.classList.remove('bg-6');
     sectionJeux.classList.remove('bg-7');
     sectionJeux.classList.remove('bg-8');
+    
+    vague1.classList.remove('cacher');
+    vague2.classList.remove('cacher');
+    vague3.classList.remove('cacher');
+    vague4.classList.remove('cacher');
+    vague5.classList.remove('cacher');
+    vague6.classList.remove('cacher');
+    vague7.classList.remove('cacher');
+    vague8.classList.remove('cacher');
 }
 
