@@ -219,11 +219,13 @@ input {
 /* vie */
 
 .vie {
-    padding-top: 8px;
-}
+    padding-top: 8px;   
+} 
 
 .iv1, .iv2, .iv3, .iv4 {
     padding-bottom: 8px;
+  
+    
 }
 
 
@@ -393,7 +395,7 @@ input {
 
 
     }
-}
+
 
 
 @media screen and (min-width: 544px) and (max-width: 767px) and (orientation: landscape) {
