@@ -191,6 +191,7 @@ input {
     width: 70px;
     height: 25px;
     margin-right: 15px;  
+    text-align: center;
     color: var(--bleu);
     font-family: 'Nunito';
     font-weight: 700;    
@@ -317,7 +318,7 @@ input {
 }
 
 
-/* ------------ Partie Antho et Cecile ----------------- */
+/* ------------ Responsive ----------------- */
 @media only screen and (max-width : 330px) {
     .jeux {
         height: 55%;
@@ -398,6 +399,12 @@ input {
 
     .perdu {
         background-position: center;
+    }
+    
+    .btn-ok:hover {
+        color: var(--blanc);
+        background-color: var(--orange);
+        border-color: var(--blanc); 
     }
     
 }
@@ -484,6 +491,12 @@ input {
 
     .perdu {
         background-position: center;
+    }
+    
+    .btn-ok:hover {
+        color: var(--blanc);
+        background-color: var(--orange);
+        border-color: var(--blanc); 
     }
     
 }
@@ -581,6 +594,12 @@ input {
     .perdu {
         background-position: center;
     }
+    
+    .btn-ok:hover {
+        color: var(--blanc);
+        background-color: var(--orange);
+        border-color: var(--blanc); 
+    }
 }
 
 @media screen and (min-width: 544px) and (max-width: 767px) and (orientation: landscape) {
@@ -674,6 +693,12 @@ input {
     .perdu {
         background-position: center;
     }
+    
+    .btn-ok:hover {
+        color: var(--blanc);
+        background-color: var(--orange);
+        border-color: var(--blanc); 
+    }
 }
 
 /* -------------- */
@@ -756,6 +781,12 @@ input {
 
     .perdu {
         background-position: center;
+    }
+    
+    .btn-ok:hover {
+        color: var(--blanc);
+        background-color: var(--orange);
+        border-color: var(--blanc); 
     }
     
 }
@@ -845,6 +876,12 @@ input {
 
     .perdu {
         background-position: center;
+    }
+    
+    .btn-ok:hover {
+        color: var(--blanc);
+        background-color: var(--orange);
+        border-color: var(--blanc); 
     }
 
 }
