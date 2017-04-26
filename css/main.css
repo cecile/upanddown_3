@@ -39,6 +39,14 @@ p {
     color: var(--bleu);
     text-transform: uppercase;
 }
+
+p.tgagner{
+        text-align: center;
+        color : var(--bleu);
+        font-weight: bold;
+        font-weight: bold;
+    }
+
 .accueil,
 .jeux,
 .resultat{
@@ -310,8 +318,93 @@ input {
 
 
 /* ------------ Partie Antho et Cecile ----------------- */
+@media only screen and (max-width : 330px) {
+    .jeux {
+        height: 55%;
+        width: auto;
+        background-position: right;
+    }
+    
+    .interface {
+        height: 45%;
+        width: auto;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .jeux p {
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    
+    input {
+        margin: 8px;
+        width: unset;
+        height: unset;
+    }
+    
+    .btn-ok {
+        margin: 8px;
+    }
+    
+    .reponse {
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 64px;
+    }
+    
+    .vie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .img-vie{
+        width: 23%;
+        margin-bottom: 5px;
+    }
+    
+    .plus > p, .moins > p {
+        font-size: 272px;
+    }
+    
+    h2 {
+      font-size: 25px;
+      border: solid 2px;
+    }
 
-@media only screen and (max-width : 543px) {
+    h3 {
+        font-size: 60px;
+    }
+
+
+    .bleu,
+    .orange {
+        border: solid 2px;
+        font-size: 14px;
+    }
+
+
+    .accueil, .gagner {
+        background-position: right;
+    }
+
+    .perdu {
+        background-position: center;
+    }
+    
+}
+
+
+
+@media only screen and (max-width : 543px) and (min-width : 330px) {
     .jeux {
         height: 65%;
         width: auto;
@@ -392,11 +485,103 @@ input {
     .perdu {
         background-position: center;
     }
+    
+}
 
+@media screen and (min-width: 330px) and (max-width: 480px) and (orientation: landscape) {
+    .jeux {
+        height: 75%;
+        width: auto;
+        background-position: right top;
+    }
+    
+    .interface {
+        height: 25%;
+        width: auto;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .jeux p {
+        text-align: center;
+        font-size: 14px;
+        width: 60%;
+        line-height: 46px;
+    }
+    
+    
+    input {
+        margin: 8px;
+        width: 60%;
+        height: unset;
+    }
+    
+    .btn-ok {
+        margin: 8px;
+    }
+    
+    .reponse {
+        margin: 0 auto;
+        width: 40%;
+        justify-content: center;
+        height: 43px;
+        overflow:hidden; 
+        box-sizing: border-box;
+    }
+    
+    .vie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        line-height: 43px;
+        margin: auto;
+    }
+    
+    .img-vie{
+        width: 10%;
+        margin: 0;
+        padding: 0;
+        line-height: 43px;
+        height: auto;
+    }
+    
+    .plus > p, .moins > p {
+        font-size: 272px;
+    }
+    
+    h2 {
+      font-size: 40px;
+      border: solid 2px;
+    }
 
+    h3 {
+        font-size: 80px;
     }
 
 
+    .bleu, 
+    .orange {
+        border: solid 2px ;
+        font-size: 20px;
+    }
+
+
+    .accueil, .gagner {
+        background-position: right;
+    }
+
+    .perdu {
+        background-position: center;
+    }
+}
 
 @media screen and (min-width: 544px) and (max-width: 767px) and (orientation: landscape) {
     .jeux {
