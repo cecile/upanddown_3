@@ -27,7 +27,10 @@ var coupjouer = 0;
 var nombre = Math.ceil(Math.random()*100);
 
 var tgagner = document.querySelector("h3.tgagner");
+var pgagner = document.querySelector("p.tgagner");
 var tperdu = document.querySelector("h3.tperdu");
+
+var nbCoup = document.querySelector("#nb-coup");
 
 //evenements
 btnJouez.addEventListener('click', accueilToJeux);
@@ -53,6 +56,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-1');
@@ -81,6 +85,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-2');
@@ -109,6 +114,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-3');
@@ -137,6 +143,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-4');
@@ -165,6 +172,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-5');
@@ -193,6 +201,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-6');
@@ -221,6 +230,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else if(blcNb.value < nombre) {
                 sectionJeux.classList.remove('bg-7');
@@ -249,6 +259,7 @@ function verifNombre() {
             sectionResultat.classList.add('gagner');
             tperdu.classList.add('cacher');
             tgagner.classList.remove('cacher');
+            nbCoup.innerText = coupjouer + 1;
 
             }else{
                 sectionResultat.classList.remove('cacher');
@@ -262,6 +273,7 @@ function verifNombre() {
                 sectionJeux.classList.remove('bg-7');
                 sectionJeux.classList.remove('bg-8');
                 tgagner.classList.add('cacher');
+                pgagner.classList.add('cacher');
 
                 vague1.classList.remove('transparent');
                 vague2.classList.remove('transparent');
