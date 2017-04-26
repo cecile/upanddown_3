@@ -23,7 +23,6 @@ var moins = document.querySelector(".moins");
 var blcNb = document.querySelector("input");
 
 var coupjouer = 0;
-console.log(nombre);
 
 var nombre = Math.ceil(Math.random()*100);
 
