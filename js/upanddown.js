@@ -25,6 +25,7 @@ var blcNb = document.querySelector("input");
 var nombre = Math.ceil(Math.random()*100);
 var nombrecoup = 8;
 var coupjouer = 0;
+console.log(nombre);
 
 var tgagner = document.querySelector("h3.tgagner");
 var tperdu = document.querySelector("h3.tperdu");
