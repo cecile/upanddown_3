@@ -260,6 +260,10 @@ input {
     display: none;
 }
 
+.transparent {
+    opacity: 0;
+}
+
 /*animation du plus et du moins*/
 .plus > p {
     font-size: 800px;
