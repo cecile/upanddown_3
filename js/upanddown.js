@@ -42,8 +42,6 @@ function accueilToJeux() {
 }
 
 function verifNombre() {
-    console.log(coupjouer);
-    console.log(nombre);
     if(coupjouer < 1) {
         
         plus.classList.add('cacher');
